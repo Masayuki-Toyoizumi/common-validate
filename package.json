@@ -1,13 +1,26 @@
 {
-  "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "jest": "^29.5.0",
-    "ts-jest": "^29.1.0",
+  "dependencies": {
     "typescript": "^5.0.4"
   },
+  "name": "common-validate",
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "version": "1.0.0",
   "main": "index.js",
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "prepublishOnly": "npm run build" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masayuki-Toyoizumi/common-validate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Masayuki-Toyoizumi/common-validate/issues"
+  },
+  "homepage": "https://github.com/Masayuki-Toyoizumi/common-validate#readme"
 }
